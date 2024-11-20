@@ -1,4 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+/* Ajustes gerais para telas menores */
+@media (max-width: 768px) {
+  /* Ajustar botões no topo */
+  .menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .menu .item-menu {
+      margin: 5px 0; /* Espaçamento entre os botões */
+      width: 90%; /* Ajusta largura para caber na tela */
+  }
+
+  /* Evitar elementos que ultrapassam a tela */
+  body {
+      overflow-x: hidden;
+  }
+
+  /* Ajustar elementos que ultrapassam limites */
+  .container {
+      padding: 10px;
+      width: 100%; /* Garante que os elementos não passem da largura */
+      box-sizing: border-box; /* Inclui padding e borda no tamanho */
+  }
+}
+
+/* Estilização adicional para telas muito pequenas */
+@media (max-width: 480px) {
+  .header {
+      font-size: 18px; /* Ajuste do tamanho do texto */
+  }
+
+  .content img {
+      max-width: 100%; /* Assegura que imagens não ultrapassem os limites */
+      height: auto;
+  }
+}
+
+
 
 *{
   margin: 0;
