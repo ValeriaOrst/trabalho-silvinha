@@ -30,7 +30,7 @@ header, #principal, #second, #contato, #stream {
   color: black;
 }
 .f {
-  background-color: #0000FF;
+  background-color: #e04b5a;
 }
 
 .l {
@@ -38,7 +38,11 @@ header, #principal, #second, #contato, #stream {
 }
 
 .m {
-  background-color: #e04b5a;
+  background-color: #5b305a;
+}
+
+.n{
+  background-color: #120a8f;
 }
 
 main {
@@ -57,7 +61,7 @@ h1, h2 {
 }
 
 #second a{
-  color: #fff;
+  color: #000;
 }
 
 footer {
@@ -85,7 +89,7 @@ footer {
 nav {
   display: flex;
   justify-content: center;
-  flex: 2;
+  flex: 3;
 }
 
 #menu{
